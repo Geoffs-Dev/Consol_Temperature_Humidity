@@ -120,7 +120,7 @@ bool readSerialPort() {
     //this may handle the unhandled exception now.
     if (dwBytesRead < sizeof(szBuffer)) {
 
-        szBuffer[dwBytesRead] = '\0'; //Check for the end of memory?
+        szBuffer[dwBytesRead] = '\0'; //Check for the end of memory
         //printf("%s", szBuffer); // display the full string of data in one hit.
 
         //attempting to display the szBuffer in seperate details this is so i can 
